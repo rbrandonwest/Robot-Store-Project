@@ -1,0 +1,163 @@
+/* all pages */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body {
+  font-family: 'Roboto' , sans-serif;
+  margin: 0px;
+}
+
+header {
+    width: 100%;
+    display: block;
+}
+
+div {
+    width: 100%;
+    overflow: auto;
+}
+
+.headerlogo img {
+    display: inline;
+    float: left;
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto 25px;
+}
+
+nav ul li {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 12px;
+    float: left;
+    padding-right: 5px;
+    padding-top: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 14px;
+}
+
+span#headername {
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: teal;
+    font-weight: bolder;
+}
+
+.searchbox {
+    float: right;
+    margin-top: 42px;
+}
+
+.navbar-background {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+/* start home */
+
+#welcomeimage {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#welcomeimage img {
+    width: 100%;
+}
+
+#coffeeofthemonth {
+    margin: 12px auto;
+    max-width: 600px;
+
+}
+
+#coffeeofthemonth img {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+.welcomeparagraph {
+    display: block;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin: 30px;
+}
+
+section#welcometext header {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: teal;
+}
+
+span p mark {
+    display: block;
+}
+
+/* end home */
+/* start robots */
+
+fieldset {
+    border: none; /*also removes border from hardware and about page */
+}
+
+h4 {
+    font-family: 'Bungee' , cursive;
+}
+
+/* end robots */
+/* start hardware */
+
+fieldset p {
+    font-family: 'Play' , sans-serif;
+}
+
+/* start footer */
+
+footer {
+    background-color: darkgray;
+    margin-top: 25px;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 2px; 
+}
