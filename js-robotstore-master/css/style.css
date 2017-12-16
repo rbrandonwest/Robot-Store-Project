@@ -1,0 +1,195 @@
+/* all pages */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body {
+  font-family: 'Roboto' , sans-serif;
+  margin: 0px;
+  background-color: #ededed
+}
+
+header {
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo img {
+    width: 120px;
+    margin-top: 0px;
+    margin-left: 16px;
+}
+
+/* nav bar settings start */
+
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto 25px;
+}
+
+nav ul li {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 12px;
+    float: left;
+    padding-right: 5px;
+    padding-top: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 14px;
+}
+
+.activelink {
+    color: teal;
+}
+
+/* nav bar settings END */
+
+span#headername {
+    white-space: nowrap;
+    margin: 42px 0 0 70px;
+    font-size: 42px;
+    color: teal;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Play' , sans-serif;
+}
+
+.searchbox {
+    float: right;
+    margin: 42px 12px 0 12px;
+    height: 20px;
+}
+
+
+
+/* start home */
+
+
+
+#welcomeimage img {
+    max-width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+#coffeeofthemonth img {
+    display: block;
+    width: 20%;
+    margin: auto;
+    max-width: 190px;
+}
+
+.welcomeparagraph {
+    display: block;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin: 30px;
+}
+
+section#welcometext header {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: teal;
+    background-color: #ededed;
+}
+
+
+
+/* end home */
+/* start robots */
+
+fieldset {
+    border: none; /*also removes border from hardware and about page */
+}
+
+h4 {
+    font-family: 'Bungee' , cursive;
+}
+
+/* end robots */
+/* start hardware */
+
+fieldset p {
+    font-family: 'Play' , sans-serif;
+}
+
+/* start footer */
+
+footer {
+    background-color: darkgray;
+    margin-top: 25px;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 2px; 
+}
+
+.myForm {
+    display: block;
+    font-family: 'Roboto' , sans-serif;
+}
+
+#fullname, #email, #yloc {
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* button settings START */
+
+.submitbutton {
+    margin-left: 15px;
+    border: none;
+    background-color: teal;
+    width: 20%;
+    height: 24px;
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    cursor: pointer;
+}
+
+/* button settings END */
+
+
