@@ -4,6 +4,8 @@
   <title>Mr Robot!</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
   <link rel="stylesheet" href="css\style.css">  
+  <link rel="stylesheet" href="css\phonestyle.css">
+  
   <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   </head>
 <body>
@@ -19,7 +21,7 @@
       <nav class="backgroundgradient">
           <ul>
             <li><a class="navlink" href="index.html">Home</a></li>
-            <li><a class="navlink" href="robots.html">Robots</a></li>
+            <li><a class="navlink activelink" href="robots.html">Robots</a></li>
             <li><a class="navlink" href="computers.html">Hardware</a></li>
             <li><a class="navlink" href="contact.html">Contact</a></li>
             <li><a class="navlink" href="about.html">About</a></li>
@@ -36,9 +38,10 @@
   <h4>
   <label for="imgrobo1">  Name:</label>
      R.E.T.</h4>
-  <img id="imgrobo1" src="images/roboDog.png" width=200 height=200 alt="robo1">
-
-  <h5><strong>Description:</strong> <br>This was our first robot.
+  <div class="imgrobot">
+  <img id="imgrobo1" src="images/roboDog.png" alt="robo1">
+  </div>
+  <h5 id="disc1"><strong>Description:</strong> <br>This was our first robot.
    He was modeled after the famous movie character E.T.</h5>
 </article>
 </li>
@@ -92,7 +95,7 @@
      </template>
 </template>
 <script>
-  var robo = document.querySelector('#robo1').createShadowRoot();
+  // var robo = document.querySelector('#robo1').createShadowRoot();
   /*Step1*/
   let prdTemplate = document.querySelector('#producttemplate');
   /*Step2*/

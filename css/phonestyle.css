@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px) {
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        width: 60px;
+    } 
+    
+    li a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    div {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .searchbox {
+        width: 50%;
+    }
+
+    #fullname {
+        width: 90%;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    form {
+        margin-left: 20px;
+    }
+}
