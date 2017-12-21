@@ -78,7 +78,8 @@ nav ul li a:hover {
 
 span#headername {
     white-space: nowrap;
-    margin: 42px 0 0 70px;
+    margin: auto;
+    margin-left: 12px;
     font-size: 42px;
     color: teal;
     font-weight: bolder;
@@ -201,12 +202,7 @@ footer p {
     width: 75%;
 }
 
-#imgrobo1 {
-    width: 200px;
-    height: 200px;
-}
-
 .hover {
     width: 250px;
-    height: 250px
+    height: 250px;
 }

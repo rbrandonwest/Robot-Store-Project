@@ -2,19 +2,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Mr Robot!</title>
+  <!-- bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
-  <link rel="stylesheet" href="css\phonestyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+<!-- local styles -->
   <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\phonestyle.css">
+<!-- boostrapjs -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 <body>
+    <section class="content">
     <header>
-        <div>
+            <span class="col-xs-2">
             <a class="headerlogo" href="index.html">
                 <img src="images/logo.jpg"/>
             </a>
-            <span id="headername">Mr. Robot</span>
-            <input type="search" class="searchbox" placeholder="Search our store" />
+            </span>
+            <span id="headername" class="col-xs-4">Mr. Robot</span>
+            <span class="col-xs-2"><input type="search" class="searchbox" placeholder="Search our store" /></span>
         </div>
         <nav class="navbar-background">
             <ul>
@@ -24,12 +33,12 @@
               <li><a class="navlink" href="contact.html">Contact</a></li>
               <li><a class="navlink" href="about.html">About</a></li>
             </ul>
-        </nav>
+        </nav> 
     </header>
     <div id="welcomeimage">
         <img src="images/welcome.jpg" />
     </div>
-    <div id="coffeeofthemonth">
+    <div id="coffeeofthemonth" class="pull-left">
         <img src="images/robot_hello.png" />
     </div>
     <section id="welcometext">
@@ -44,7 +53,11 @@
       <p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
       <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
       <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
-    </footer>
+    </footer> 
+</section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
 </body>
 
 </html>

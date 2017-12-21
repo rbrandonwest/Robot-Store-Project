@@ -9,7 +9,7 @@ $(document).ready(() => {
         });
     });
 
-    $('imgrobo1').mouseover(function() {
+    $('#imgrobo1').mouseover(function() {
         $(this).addClass('hover');
         $(this).mouseout(function () {
             $(this).removeClass('hover');
